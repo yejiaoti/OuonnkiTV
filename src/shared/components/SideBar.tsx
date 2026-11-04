@@ -66,13 +66,6 @@ export default function SideBar({
         icon: History,
       },
     ],
-    footer: [
-      {
-        title: '设置',
-        url: '/settings',
-        icon: Settings,
-      },
-    ],
   }
   // 获取版本信息
   const { currentVersion } = useVersionStore()
